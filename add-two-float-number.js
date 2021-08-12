@@ -1,0 +1,10 @@
+var num1=0.6;
+var num2=0.3;
+var total=num1+num2;
+console.log(total);
+total=total.toFixed(1);
+console.log(total);
+console.log(typeof total);
+total=parseFloat(total);
+console.log(total);
+console.log("After parse float :",typeof total);
